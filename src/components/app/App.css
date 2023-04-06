@@ -1,0 +1,46 @@
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 100px;
+}
+
+#todo-input, p {
+    margin-right: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    width: 300px;
+    min-height: 200px;
+    background-color: #FFC070;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#done-list {
+    width: 300px;
+    min-height: 200px;
+    background-color: #FFC070;
+    padding: 10px;
+}
